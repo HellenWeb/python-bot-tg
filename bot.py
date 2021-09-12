@@ -104,7 +104,7 @@ def menu_command(message):
                     parse_mode='html')
                 else:
                     bot.send_message(message.chat.id, f"You - <strong>{me}</strong>\nI - <strong>{robot}</strong>\nYou've lost but don't be upset 😌", format(message.from_user), bot.get_me(), 
-                    parse_mode='html')   
+                    parse_mode='html')
 
 bot.polling(non_stop=True)
 
